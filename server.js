@@ -27,7 +27,7 @@ function init(){
     })
 
     .then(async function(answers) {
-        // Functions to call based on option choosen
+        
       switch (answers.choices) {
         case "View ALL Employees":
             viewEmployees();
