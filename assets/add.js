@@ -7,27 +7,27 @@ function addEmployee(){
       name: "first_name",
       type: "input",
       message: "What is the employee's first name?",
-      // validate: function(value){
-      //   let string = value.match(/^\s*\S+.*/);
-      //   if (string) {
-      //     return true;
-      //   } else {
-      //     return "Please enter the Employee's FIRST NAME ";
-      //   }
-      // }
+      validate: function(value){
+        let string = value.match(/^\s*\S+.*/);
+        if (string) {
+          return true;
+        } else {
+          return "Please enter the Employee's FIRST NAME ";
+        }
+      }
     },
     {
       name: "last_name",
       type: "input",
       message: "What is the employee's last name?",
-      // validate: function(value){
-      //   let string = value.match(/^\s*\S+.*/);
-      //   if (string) {
-      //     return true;
-      //   } else {
-      //     return "Please enter the Employee's LAST NAME ";
-      //   }
-      // }
+      validate: function(value){
+        let string = value.match(/^\s*\S+.*/);
+        if (string) {
+          return true;
+        } else {
+          return "Please enter the Employee's LAST NAME ";
+        }
+      }
     },
     {
       name: "title",
@@ -83,14 +83,14 @@ function addDepartment(){
       name: "department",
       type: "input",
       message: "Please add the department",
-      // validate: function(value){
-      //   let string = value.match(/^\s*\S+.*/);
-      //   if (string) {
-      //     return true;
-      //   } else {
-      //     return "Please enter the DEPARTMENT ";
-      //   }
-      // }
+      validate: function(value){
+        let string = value.match(/^\s*\S+.*/);
+        if (string) {
+          return true;
+        } else {
+          return "Please enter the DEPARTMENT ";
+        }
+      }
     }
   ])
   .then(async function(answer){
@@ -109,27 +109,27 @@ function addRole(){
       name: "role",
       type: "input",
       message: "Please add the job title",
-      // validate: function(value){
-      //   var string = value.match(/^\s*\S+.*/);
-      //   if (string) {
-      //     return true;
-      //   } else {
-      //     return "Please enter the JOB TITLE ";
-      //   }
-      // }
+      validate: function(value){
+        var string = value.match(/^\s*\S+.*/);
+        if (string) {
+          return true;
+        } else {
+          return "Please enter the JOB TITLE ";
+        }
+      }
     },
     {
       name: "salary",
       type: "input",
       message: "Please add the job title's salary",
-      // validate: function(value){
-      //   var string = value.match(/^\s*\S+.*/);
-      //   if (string) {
-      //     return true;
-      //   } else {
-      //     return "Please enter the SALARY";
-      //   }
-      // }
+      validate: function(value){
+        var string = value.match(/^\s*\S+.*/);
+        if (string) {
+          return true;
+        } else {
+          return "Please enter the SALARY";
+        }
+      }
     },
     {
       name: "department",

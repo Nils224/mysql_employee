@@ -31,48 +31,48 @@ function init(){
       switch (answers.choices) {
         case "View ALL Employees":
             viewEmployees();
-            setTimeout(init, 500);
+            setTimeout(init, 10000);
             break;
     
         case "View Employees by Department":
             viewByDepartment();
-            setTimeout(init, 3000);
+            setTimeout(init, 20000);
             break;
                 
         
         case "View Employees by Roles":
             viewByRoles();
-            setTimeout(init, 3000);
+            setTimeout(init, 20000);
             break;
                         
         case "View Departments":
             viewDepartments();
-            setTimeout(init, 3000);
+            setTimeout(init, 20000);
             break;
             
         case "View Roles":
             viewRoles();
-            setTimeout(init, 3000);
+            setTimeout(init, 20000);
             break;
     
         case "Add Employee":
             addEmployee();
-            setTimeout(init, 10000);
+            setTimeout(init, 60000);
             break;
     
         case "Add Departments":
             addDepartment();
-            setTimeout(init, 10000);
+            setTimeout(init, 60000);
             break;
     
         case "Add Role":
             addRole();
-            setTimeout(init, 15000);
+            setTimeout(init, 60000);
             break;
     
         case "Update Employee roles":
             updateEmployee();
-            setTimeout(init, 15000);
+            setTimeout(init, 60000);
             break;
                 
         case "Exit application":

@@ -5,7 +5,7 @@ const connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: process.env.DATABASE_PASSWORD,
+  password: "mfbx8NP$",
   database: "employee_tracker"
 });
     
@@ -17,3 +17,5 @@ connection.connect(function(err) {
 
 
 module.exports = connection;
+
+// process.env.DATABASE_PASSWORD
