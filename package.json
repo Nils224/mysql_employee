@@ -1,0 +1,27 @@
+{
+  "name": "mysql_employee",
+  "version": "1.0.0",
+  "description": "[link to github](https://github.com/Nils224/mysql_employee)",
+  "main": "connect.js",
+  "dependencies": {
+    "console-table-printer": "^1.1.33",
+    "express": "^4.17.1",
+    "inquirer": "^7.0.3",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nils224/mysql_employee.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nils224/mysql_employee/issues"
+  },
+  "homepage": "https://github.com/Nils224/mysql_employee#readme"
+}
